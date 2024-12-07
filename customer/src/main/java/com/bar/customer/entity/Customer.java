@@ -1,4 +1,4 @@
-package com.bar.customer;
+package com.bar.customer.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

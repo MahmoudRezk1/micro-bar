@@ -1,6 +1,6 @@
 package com.bar.customer.repository;
 
-import com.bar.customer.Customer;
+import com.bar.customer.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

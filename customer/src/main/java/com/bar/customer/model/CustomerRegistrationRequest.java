@@ -1,4 +1,4 @@
-package com.bar.customer;
+package com.bar.customer.model;
 
 public record CustomerRegistrationRequest (
         String firstName,

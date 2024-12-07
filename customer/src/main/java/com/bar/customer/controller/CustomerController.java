@@ -1,6 +1,6 @@
 package com.bar.customer.controller;
 
-import com.bar.customer.CustomerRegistrationRequest;
+import com.bar.customer.model.CustomerRegistrationRequest;
 import com.bar.customer.service.CustomerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/customer")
+@RequestMapping("api/v1/customer")
 @Slf4j
 public record CustomerController(CustomerService customerService) {
 
