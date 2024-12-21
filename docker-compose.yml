@@ -27,7 +27,11 @@ services:
       - my-network
     ports:
       - "5050:80"
-
+  zipkin:
+    image: ghcr.io/openzipkin/zipkin-slim:${TAG:-latest}
+    container_name: zipkin
+    ports:
+      - "9411:9411"
 networks:
   my-network:
     driver: bridge

@@ -1,4 +1,4 @@
-package com.bar.fraud.model;
+package com.bar.clients.fraud;
 
 public record FraudCheckResponse(boolean isFraudster) {
 }
